@@ -18,3 +18,79 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.country-list {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.country-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: calc(25% - 10px);
+  min-width: 150px;
+  height: 140px;
+  padding: 10px;
+  background-color: #ececec;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.country-flag {
+  margin-bottom: 10px;
+  padding: 10px;
+  max-width: 80%;
+  max-height: 60%;
+}
+
+.country-name,
+.country-info__label {
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+  box-shadow: #212121;
+  margin: 20px;
+}
+
+.country-name {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.country-info__text {
+  font-weight: 400;
+  color: blue;
+}
+
+.country-info__thumb {
+  display: flex;
+}
+
+.body {
+  display: flex;
+  padding: 50px;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://r4.wallpaperflare.com/wallpaper/163/392/912/map-wold-map-technology-world-wallpaper-d8c6edc810508cc8901c51ae183254ea.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.country-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.country-info {
+  background-color: #ececec;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
