@@ -21,6 +21,7 @@ body {
 
 #search-box {
   width: 100%;
+  max-width: 300px;
   margin: 20px;
   display: block;
   padding: 10px;
@@ -61,7 +62,7 @@ body {
 
 .country-info {
   margin-top: 50px;
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
