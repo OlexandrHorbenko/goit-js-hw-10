@@ -69,7 +69,7 @@ body {
 }
 
 .country-info__thumb {
-  flex: 1 1 300px;
+  max-width: 350px;
   margin-right: 50px;
   text-align: center;
 }
