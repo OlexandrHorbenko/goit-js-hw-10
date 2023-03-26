@@ -12,13 +12,6 @@ body {
   line-height: 1.5;
 }
 
-#search-box {
-  font: inherit;
-  padding: 8px;
-  max-width: 320px;
-  margin-bottom: 16px;
-}
-
 .body {
   margin: 0;
   padding: 0;
@@ -28,8 +21,7 @@ body {
 
 #search-box {
   width: 100%;
-  max-width: 500px;
-  margin: 20px auto;
+  margin: 20px;
   display: block;
   padding: 10px;
   font-size: 20px;
@@ -38,12 +30,10 @@ body {
 }
 
 .country-list {
-  margin: 0;
+  margin: 20px;
   padding: 0;
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: inline-block;
 }
 
 .country-item {
